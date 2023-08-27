@@ -11,7 +11,6 @@ const DisplayImage = (image: TEventInfo) => {
       width={image.width}
       height={image.height}
       alt={image.filename}
-      className='w-1/3'
     />
   );
 };
